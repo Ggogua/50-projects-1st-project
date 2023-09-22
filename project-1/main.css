@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.image-container {
+    text-align: center; 
+    position: relative;
+}
+
+.image-container img {
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -8px; 
+    left: 15px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.image-1, .image-2, .image-3, .image-4, .image-5 {
+    padding-right: 12px;
+}
+
+.image_01 {
+    width: 1200px;
+    transition: width 1s ease;
+}
+
+.image_02, .image_03, .image_04, .image_05 {
+    width: 120px;
+    transition: width 1s ease;
+}
+
